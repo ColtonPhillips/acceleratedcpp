@@ -1,0 +1,3 @@
+#define Staticdef(type, var, initialization) \
+	static type var = 0; \
+	if (!(var)) var = (initialization);
